@@ -1,0 +1,25 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-02-29T12:00:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "components": {
+    "database": {
+      "status": "healthy",
+      "response_time_ms": 15
+    },
+    "message_queue": {
+      "status": "degraded",
+      "error": "Connection refused"
+    },
+    "api_gateway": {
+      "status": "healthy",
+      "response_time_ms": 20
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.25,
+    "memory_usage": 0.70,
+    "disk_space_free": "50GB"
+  }
+}
